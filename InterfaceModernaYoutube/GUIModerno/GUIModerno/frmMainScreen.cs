@@ -29,6 +29,12 @@ namespace GUIModerno
             picButtonRestore.Visible = true;
         }
 
+        private void picButtonMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+
+        }
+
         private void picButtonRestore_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Normal;

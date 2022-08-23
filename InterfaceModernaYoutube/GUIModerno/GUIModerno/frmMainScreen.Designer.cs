@@ -60,7 +60,7 @@
             // 
             this.picButtonRestore.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picButtonRestore.Image = ((System.Drawing.Image)(resources.GetObject("picButtonRestore.Image")));
-            this.picButtonRestore.Location = new System.Drawing.Point(1167, 6);
+            this.picButtonRestore.Location = new System.Drawing.Point(1169, 5);
             this.picButtonRestore.Name = "picButtonRestore";
             this.picButtonRestore.Size = new System.Drawing.Size(25, 25);
             this.picButtonRestore.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -78,6 +78,7 @@
             this.picButtonMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picButtonMinimize.TabIndex = 2;
             this.picButtonMinimize.TabStop = false;
+            this.picButtonMinimize.Click += new System.EventHandler(this.picButtonMinimize_Click);
             // 
             // picButtonMaximize
             // 
