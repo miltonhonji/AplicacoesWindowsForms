@@ -1,0 +1,10 @@
+C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\bin\Debug\GUIModerno.exe.config
+C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\bin\Debug\GUIModerno.exe
+C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\bin\Debug\GUIModerno.pdb
+C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\obj\Debug\GUIModerno.csprojAssemblyReference.cache
+C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\obj\Debug\GUIModerno.frmDesignModern.resources
+C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\obj\Debug\GUIModerno.Properties.Resources.resources
+C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\obj\Debug\GUIModerno.csproj.GenerateResource.cache
+C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\obj\Debug\GUIModerno.csproj.CoreCompileInputs.cache
+C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\obj\Debug\GUIModerno.exe
+C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\obj\Debug\GUIModerno.pdb
