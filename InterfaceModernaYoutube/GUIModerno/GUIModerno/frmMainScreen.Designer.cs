@@ -29,27 +29,29 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDesignModern));
-            this.pnlBarraTitulo = new System.Windows.Forms.Panel();
+            this.pnlTitleBar = new System.Windows.Forms.Panel();
             this.picButtonRestore = new System.Windows.Forms.PictureBox();
             this.picButtonMinimize = new System.Windows.Forms.PictureBox();
             this.picButtonMaximize = new System.Windows.Forms.PictureBox();
             this.picButtonClose = new System.Windows.Forms.PictureBox();
             this.pnlMenuVertical = new System.Windows.Forms.Panel();
-            this.pnlKontenedor = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pnlBorderLeftProducts = new System.Windows.Forms.Panel();
-            this.pnlBorderLeftBlindfolds = new System.Windows.Forms.Panel();
-            this.btnBlindfolds = new System.Windows.Forms.Button();
-            this.pnlBorderLeftCustomers = new System.Windows.Forms.Panel();
-            this.btnCustomers = new System.Windows.Forms.Button();
-            this.pnlBorderLeftShopping = new System.Windows.Forms.Panel();
-            this.btnShopping = new System.Windows.Forms.Button();
-            this.pnlBorderLeftEmployees = new System.Windows.Forms.Panel();
-            this.btnEmployees = new System.Windows.Forms.Button();
             this.pnlBorderLeftPaid = new System.Windows.Forms.Panel();
             this.btnPaid = new System.Windows.Forms.Button();
+            this.pnlBorderLeftEmployees = new System.Windows.Forms.Panel();
+            this.btnEmployees = new System.Windows.Forms.Button();
+            this.pnlBorderLeftShopping = new System.Windows.Forms.Panel();
+            this.btnShopping = new System.Windows.Forms.Button();
+            this.pnlBorderLeftCustomers = new System.Windows.Forms.Panel();
+            this.btnCustomers = new System.Windows.Forms.Button();
+            this.pnlBorderLeftBlindfolds = new System.Windows.Forms.Panel();
+            this.btnBlindfolds = new System.Windows.Forms.Button();
+            this.pnlBorderLeftProducts = new System.Windows.Forms.Panel();
             this.btnProducts = new System.Windows.Forms.Button();
-            this.pnlBarraTitulo.SuspendLayout();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pnlKontenedor = new System.Windows.Forms.Panel();
+            this.pnlBorderLeftReports = new System.Windows.Forms.Panel();
+            this.btnReports = new System.Windows.Forms.Button();
+            this.pnlTitleBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonRestore)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonMaximize)).BeginInit();
@@ -58,18 +60,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // pnlBarraTitulo
+            // pnlTitleBar
             // 
-            this.pnlBarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.pnlBarraTitulo.Controls.Add(this.picButtonRestore);
-            this.pnlBarraTitulo.Controls.Add(this.picButtonMinimize);
-            this.pnlBarraTitulo.Controls.Add(this.picButtonMaximize);
-            this.pnlBarraTitulo.Controls.Add(this.picButtonClose);
-            this.pnlBarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlBarraTitulo.Location = new System.Drawing.Point(0, 0);
-            this.pnlBarraTitulo.Name = "pnlBarraTitulo";
-            this.pnlBarraTitulo.Size = new System.Drawing.Size(1300, 38);
-            this.pnlBarraTitulo.TabIndex = 0;
+            this.pnlTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.pnlTitleBar.Controls.Add(this.picButtonRestore);
+            this.pnlTitleBar.Controls.Add(this.picButtonMinimize);
+            this.pnlTitleBar.Controls.Add(this.picButtonMaximize);
+            this.pnlTitleBar.Controls.Add(this.picButtonClose);
+            this.pnlTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlTitleBar.Location = new System.Drawing.Point(0, 0);
+            this.pnlTitleBar.Name = "pnlTitleBar";
+            this.pnlTitleBar.Size = new System.Drawing.Size(1300, 38);
+            this.pnlTitleBar.TabIndex = 0;
+            this.pnlTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlTitleBar_MouseDown);
             // 
             // picButtonRestore
             // 
@@ -126,6 +129,8 @@
             // pnlMenuVertical
             // 
             this.pnlMenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.pnlMenuVertical.Controls.Add(this.pnlBorderLeftReports);
+            this.pnlMenuVertical.Controls.Add(this.btnReports);
             this.pnlMenuVertical.Controls.Add(this.pnlBorderLeftPaid);
             this.pnlMenuVertical.Controls.Add(this.btnPaid);
             this.pnlMenuVertical.Controls.Add(this.pnlBorderLeftEmployees);
@@ -144,133 +149,6 @@
             this.pnlMenuVertical.Name = "pnlMenuVertical";
             this.pnlMenuVertical.Size = new System.Drawing.Size(220, 612);
             this.pnlMenuVertical.TabIndex = 1;
-            // 
-            // pnlKontenedor
-            // 
-            this.pnlKontenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.pnlKontenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlKontenedor.Location = new System.Drawing.Point(220, 38);
-            this.pnlKontenedor.Name = "pnlKontenedor";
-            this.pnlKontenedor.Size = new System.Drawing.Size(1080, 612);
-            this.pnlKontenedor.TabIndex = 2;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(220, 103);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pnlBorderLeftProducts
-            // 
-            this.pnlBorderLeftProducts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.pnlBorderLeftProducts.Location = new System.Drawing.Point(1, 124);
-            this.pnlBorderLeftProducts.Name = "pnlBorderLeftProducts";
-            this.pnlBorderLeftProducts.Size = new System.Drawing.Size(5, 32);
-            this.pnlBorderLeftProducts.TabIndex = 1;
-            // 
-            // pnlBorderLeftBlindfolds
-            // 
-            this.pnlBorderLeftBlindfolds.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.pnlBorderLeftBlindfolds.Location = new System.Drawing.Point(0, 162);
-            this.pnlBorderLeftBlindfolds.Name = "pnlBorderLeftBlindfolds";
-            this.pnlBorderLeftBlindfolds.Size = new System.Drawing.Size(5, 32);
-            this.pnlBorderLeftBlindfolds.TabIndex = 3;
-            // 
-            // btnBlindfolds
-            // 
-            this.btnBlindfolds.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnBlindfolds.FlatAppearance.BorderSize = 0;
-            this.btnBlindfolds.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnBlindfolds.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlindfolds.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBlindfolds.ForeColor = System.Drawing.Color.White;
-            this.btnBlindfolds.Image = ((System.Drawing.Image)(resources.GetObject("btnBlindfolds.Image")));
-            this.btnBlindfolds.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBlindfolds.Location = new System.Drawing.Point(3, 162);
-            this.btnBlindfolds.Name = "btnBlindfolds";
-            this.btnBlindfolds.Size = new System.Drawing.Size(217, 32);
-            this.btnBlindfolds.TabIndex = 2;
-            this.btnBlindfolds.Text = "Vendas";
-            this.btnBlindfolds.UseVisualStyleBackColor = false;
-            // 
-            // pnlBorderLeftCustomers
-            // 
-            this.pnlBorderLeftCustomers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.pnlBorderLeftCustomers.Location = new System.Drawing.Point(0, 202);
-            this.pnlBorderLeftCustomers.Name = "pnlBorderLeftCustomers";
-            this.pnlBorderLeftCustomers.Size = new System.Drawing.Size(5, 32);
-            this.pnlBorderLeftCustomers.TabIndex = 5;
-            // 
-            // btnCustomers
-            // 
-            this.btnCustomers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnCustomers.FlatAppearance.BorderSize = 0;
-            this.btnCustomers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnCustomers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCustomers.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCustomers.ForeColor = System.Drawing.Color.White;
-            this.btnCustomers.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomers.Image")));
-            this.btnCustomers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCustomers.Location = new System.Drawing.Point(3, 202);
-            this.btnCustomers.Name = "btnCustomers";
-            this.btnCustomers.Size = new System.Drawing.Size(217, 32);
-            this.btnCustomers.TabIndex = 4;
-            this.btnCustomers.Text = "Clientes";
-            this.btnCustomers.UseVisualStyleBackColor = false;
-            // 
-            // pnlBorderLeftShopping
-            // 
-            this.pnlBorderLeftShopping.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.pnlBorderLeftShopping.Location = new System.Drawing.Point(0, 242);
-            this.pnlBorderLeftShopping.Name = "pnlBorderLeftShopping";
-            this.pnlBorderLeftShopping.Size = new System.Drawing.Size(5, 32);
-            this.pnlBorderLeftShopping.TabIndex = 7;
-            // 
-            // btnShopping
-            // 
-            this.btnShopping.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnShopping.FlatAppearance.BorderSize = 0;
-            this.btnShopping.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnShopping.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnShopping.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnShopping.ForeColor = System.Drawing.Color.White;
-            this.btnShopping.Image = ((System.Drawing.Image)(resources.GetObject("btnShopping.Image")));
-            this.btnShopping.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnShopping.Location = new System.Drawing.Point(3, 242);
-            this.btnShopping.Name = "btnShopping";
-            this.btnShopping.Size = new System.Drawing.Size(217, 32);
-            this.btnShopping.TabIndex = 6;
-            this.btnShopping.Text = "Compras";
-            this.btnShopping.UseVisualStyleBackColor = false;
-            // 
-            // pnlBorderLeftEmployees
-            // 
-            this.pnlBorderLeftEmployees.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.pnlBorderLeftEmployees.Location = new System.Drawing.Point(0, 281);
-            this.pnlBorderLeftEmployees.Name = "pnlBorderLeftEmployees";
-            this.pnlBorderLeftEmployees.Size = new System.Drawing.Size(5, 32);
-            this.pnlBorderLeftEmployees.TabIndex = 9;
-            // 
-            // btnEmployees
-            // 
-            this.btnEmployees.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnEmployees.FlatAppearance.BorderSize = 0;
-            this.btnEmployees.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnEmployees.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEmployees.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEmployees.ForeColor = System.Drawing.Color.White;
-            this.btnEmployees.Image = ((System.Drawing.Image)(resources.GetObject("btnEmployees.Image")));
-            this.btnEmployees.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmployees.Location = new System.Drawing.Point(3, 281);
-            this.btnEmployees.Name = "btnEmployees";
-            this.btnEmployees.Size = new System.Drawing.Size(217, 32);
-            this.btnEmployees.TabIndex = 8;
-            this.btnEmployees.Text = "Empregados";
-            this.btnEmployees.UseVisualStyleBackColor = false;
             // 
             // pnlBorderLeftPaid
             // 
@@ -297,6 +175,114 @@
             this.btnPaid.Text = "Pagos";
             this.btnPaid.UseVisualStyleBackColor = false;
             // 
+            // pnlBorderLeftEmployees
+            // 
+            this.pnlBorderLeftEmployees.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.pnlBorderLeftEmployees.Location = new System.Drawing.Point(0, 281);
+            this.pnlBorderLeftEmployees.Name = "pnlBorderLeftEmployees";
+            this.pnlBorderLeftEmployees.Size = new System.Drawing.Size(5, 32);
+            this.pnlBorderLeftEmployees.TabIndex = 9;
+            // 
+            // btnEmployees
+            // 
+            this.btnEmployees.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnEmployees.FlatAppearance.BorderSize = 0;
+            this.btnEmployees.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnEmployees.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmployees.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmployees.ForeColor = System.Drawing.Color.White;
+            this.btnEmployees.Image = ((System.Drawing.Image)(resources.GetObject("btnEmployees.Image")));
+            this.btnEmployees.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEmployees.Location = new System.Drawing.Point(3, 281);
+            this.btnEmployees.Name = "btnEmployees";
+            this.btnEmployees.Size = new System.Drawing.Size(217, 32);
+            this.btnEmployees.TabIndex = 8;
+            this.btnEmployees.Text = "Empregados";
+            this.btnEmployees.UseVisualStyleBackColor = false;
+            // 
+            // pnlBorderLeftShopping
+            // 
+            this.pnlBorderLeftShopping.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.pnlBorderLeftShopping.Location = new System.Drawing.Point(0, 242);
+            this.pnlBorderLeftShopping.Name = "pnlBorderLeftShopping";
+            this.pnlBorderLeftShopping.Size = new System.Drawing.Size(5, 32);
+            this.pnlBorderLeftShopping.TabIndex = 7;
+            // 
+            // btnShopping
+            // 
+            this.btnShopping.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnShopping.FlatAppearance.BorderSize = 0;
+            this.btnShopping.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnShopping.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnShopping.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnShopping.ForeColor = System.Drawing.Color.White;
+            this.btnShopping.Image = ((System.Drawing.Image)(resources.GetObject("btnShopping.Image")));
+            this.btnShopping.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnShopping.Location = new System.Drawing.Point(3, 242);
+            this.btnShopping.Name = "btnShopping";
+            this.btnShopping.Size = new System.Drawing.Size(217, 32);
+            this.btnShopping.TabIndex = 6;
+            this.btnShopping.Text = "Compras";
+            this.btnShopping.UseVisualStyleBackColor = false;
+            // 
+            // pnlBorderLeftCustomers
+            // 
+            this.pnlBorderLeftCustomers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.pnlBorderLeftCustomers.Location = new System.Drawing.Point(0, 202);
+            this.pnlBorderLeftCustomers.Name = "pnlBorderLeftCustomers";
+            this.pnlBorderLeftCustomers.Size = new System.Drawing.Size(5, 32);
+            this.pnlBorderLeftCustomers.TabIndex = 5;
+            // 
+            // btnCustomers
+            // 
+            this.btnCustomers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnCustomers.FlatAppearance.BorderSize = 0;
+            this.btnCustomers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnCustomers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCustomers.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCustomers.ForeColor = System.Drawing.Color.White;
+            this.btnCustomers.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomers.Image")));
+            this.btnCustomers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCustomers.Location = new System.Drawing.Point(3, 202);
+            this.btnCustomers.Name = "btnCustomers";
+            this.btnCustomers.Size = new System.Drawing.Size(217, 32);
+            this.btnCustomers.TabIndex = 4;
+            this.btnCustomers.Text = "Clientes";
+            this.btnCustomers.UseVisualStyleBackColor = false;
+            // 
+            // pnlBorderLeftBlindfolds
+            // 
+            this.pnlBorderLeftBlindfolds.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.pnlBorderLeftBlindfolds.Location = new System.Drawing.Point(0, 162);
+            this.pnlBorderLeftBlindfolds.Name = "pnlBorderLeftBlindfolds";
+            this.pnlBorderLeftBlindfolds.Size = new System.Drawing.Size(5, 32);
+            this.pnlBorderLeftBlindfolds.TabIndex = 3;
+            // 
+            // btnBlindfolds
+            // 
+            this.btnBlindfolds.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnBlindfolds.FlatAppearance.BorderSize = 0;
+            this.btnBlindfolds.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnBlindfolds.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBlindfolds.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBlindfolds.ForeColor = System.Drawing.Color.White;
+            this.btnBlindfolds.Image = ((System.Drawing.Image)(resources.GetObject("btnBlindfolds.Image")));
+            this.btnBlindfolds.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBlindfolds.Location = new System.Drawing.Point(3, 162);
+            this.btnBlindfolds.Name = "btnBlindfolds";
+            this.btnBlindfolds.Size = new System.Drawing.Size(217, 32);
+            this.btnBlindfolds.TabIndex = 2;
+            this.btnBlindfolds.Text = "Vendas";
+            this.btnBlindfolds.UseVisualStyleBackColor = false;
+            // 
+            // pnlBorderLeftProducts
+            // 
+            this.pnlBorderLeftProducts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.pnlBorderLeftProducts.Location = new System.Drawing.Point(1, 124);
+            this.pnlBorderLeftProducts.Name = "pnlBorderLeftProducts";
+            this.pnlBorderLeftProducts.Size = new System.Drawing.Size(5, 32);
+            this.pnlBorderLeftProducts.TabIndex = 1;
+            // 
             // btnProducts
             // 
             this.btnProducts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -314,6 +300,50 @@
             this.btnProducts.Text = "Produtos";
             this.btnProducts.UseVisualStyleBackColor = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(220, 103);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pnlKontenedor
+            // 
+            this.pnlKontenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.pnlKontenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlKontenedor.Location = new System.Drawing.Point(220, 38);
+            this.pnlKontenedor.Name = "pnlKontenedor";
+            this.pnlKontenedor.Size = new System.Drawing.Size(1080, 612);
+            this.pnlKontenedor.TabIndex = 2;
+            // 
+            // pnlBorderLeftReports
+            // 
+            this.pnlBorderLeftReports.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.pnlBorderLeftReports.Location = new System.Drawing.Point(0, 358);
+            this.pnlBorderLeftReports.Name = "pnlBorderLeftReports";
+            this.pnlBorderLeftReports.Size = new System.Drawing.Size(5, 32);
+            this.pnlBorderLeftReports.TabIndex = 13;
+            // 
+            // btnReports
+            // 
+            this.btnReports.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnReports.FlatAppearance.BorderSize = 0;
+            this.btnReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReports.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReports.ForeColor = System.Drawing.Color.White;
+            this.btnReports.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.Image")));
+            this.btnReports.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReports.Location = new System.Drawing.Point(3, 358);
+            this.btnReports.Name = "btnReports";
+            this.btnReports.Size = new System.Drawing.Size(217, 32);
+            this.btnReports.TabIndex = 12;
+            this.btnReports.Text = "Relatórios";
+            this.btnReports.UseVisualStyleBackColor = false;
+            // 
             // frmDesignModern
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -321,11 +351,11 @@
             this.ClientSize = new System.Drawing.Size(1300, 650);
             this.Controls.Add(this.pnlKontenedor);
             this.Controls.Add(this.pnlMenuVertical);
-            this.Controls.Add(this.pnlBarraTitulo);
+            this.Controls.Add(this.pnlTitleBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmDesignModern";
             this.Text = "Design Moderno";
-            this.pnlBarraTitulo.ResumeLayout(false);
+            this.pnlTitleBar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picButtonRestore)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonMinimize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonMaximize)).EndInit();
@@ -338,7 +368,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel pnlBarraTitulo;
+        private System.Windows.Forms.Panel pnlTitleBar;
         private System.Windows.Forms.Panel pnlMenuVertical;
         private System.Windows.Forms.PictureBox picButtonClose;
         private System.Windows.Forms.PictureBox picButtonRestore;
@@ -358,6 +388,8 @@
         private System.Windows.Forms.Panel pnlBorderLeftPaid;
         private System.Windows.Forms.Button btnPaid;
         private System.Windows.Forms.Button btnProducts;
+        private System.Windows.Forms.Panel pnlBorderLeftReports;
+        private System.Windows.Forms.Button btnReports;
     }
 }
 
