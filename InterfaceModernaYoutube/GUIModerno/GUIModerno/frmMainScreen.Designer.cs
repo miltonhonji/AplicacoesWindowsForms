@@ -35,6 +35,16 @@
             this.picButtonMaximize = new System.Windows.Forms.PictureBox();
             this.picButtonClose = new System.Windows.Forms.PictureBox();
             this.pnlMenuVertical = new System.Windows.Forms.Panel();
+            this.picbtnExit = new System.Windows.Forms.PictureBox();
+            this.pnlSubmenuReports = new System.Windows.Forms.Panel();
+            this.pnlBorderLeftPaidsReport = new System.Windows.Forms.Panel();
+            this.btnPaidsReports = new System.Windows.Forms.Button();
+            this.pnlBorderLeftPurchasesReport = new System.Windows.Forms.Panel();
+            this.btnPurchasesReport = new System.Windows.Forms.Button();
+            this.pnlBorderLeftSalesReport = new System.Windows.Forms.Panel();
+            this.btnSalesReport = new System.Windows.Forms.Button();
+            this.pnlBorderLeftReports = new System.Windows.Forms.Panel();
+            this.btnReports = new System.Windows.Forms.Button();
             this.pnlBorderLeftPaid = new System.Windows.Forms.Panel();
             this.btnPaid = new System.Windows.Forms.Button();
             this.pnlBorderLeftEmployees = new System.Windows.Forms.Panel();
@@ -49,14 +59,14 @@
             this.btnProducts = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlKontenedor = new System.Windows.Forms.Panel();
-            this.pnlBorderLeftReports = new System.Windows.Forms.Panel();
-            this.btnReports = new System.Windows.Forms.Button();
             this.pnlTitleBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonRestore)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonMaximize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonClose)).BeginInit();
             this.pnlMenuVertical.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picbtnExit)).BeginInit();
+            this.pnlSubmenuReports.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -129,6 +139,8 @@
             // pnlMenuVertical
             // 
             this.pnlMenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.pnlMenuVertical.Controls.Add(this.picbtnExit);
+            this.pnlMenuVertical.Controls.Add(this.pnlSubmenuReports);
             this.pnlMenuVertical.Controls.Add(this.pnlBorderLeftReports);
             this.pnlMenuVertical.Controls.Add(this.btnReports);
             this.pnlMenuVertical.Controls.Add(this.pnlBorderLeftPaid);
@@ -149,6 +161,132 @@
             this.pnlMenuVertical.Name = "pnlMenuVertical";
             this.pnlMenuVertical.Size = new System.Drawing.Size(220, 612);
             this.pnlMenuVertical.TabIndex = 1;
+            // 
+            // picbtnExit
+            // 
+            this.picbtnExit.Image = ((System.Drawing.Image)(resources.GetObject("picbtnExit.Image")));
+            this.picbtnExit.Location = new System.Drawing.Point(2, 552);
+            this.picbtnExit.Name = "picbtnExit";
+            this.picbtnExit.Size = new System.Drawing.Size(65, 58);
+            this.picbtnExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picbtnExit.TabIndex = 15;
+            this.picbtnExit.TabStop = false;
+            this.picbtnExit.Click += new System.EventHandler(this.picbtnExit_Click);
+            // 
+            // pnlSubmenuReports
+            // 
+            this.pnlSubmenuReports.Controls.Add(this.pnlBorderLeftPaidsReport);
+            this.pnlSubmenuReports.Controls.Add(this.btnPaidsReports);
+            this.pnlSubmenuReports.Controls.Add(this.pnlBorderLeftPurchasesReport);
+            this.pnlSubmenuReports.Controls.Add(this.btnPurchasesReport);
+            this.pnlSubmenuReports.Controls.Add(this.pnlBorderLeftSalesReport);
+            this.pnlSubmenuReports.Controls.Add(this.btnSalesReport);
+            this.pnlSubmenuReports.Location = new System.Drawing.Point(46, 397);
+            this.pnlSubmenuReports.Name = "pnlSubmenuReports";
+            this.pnlSubmenuReports.Size = new System.Drawing.Size(175, 100);
+            this.pnlSubmenuReports.TabIndex = 14;
+            this.pnlSubmenuReports.Visible = false;
+            // 
+            // pnlBorderLeftPaidsReport
+            // 
+            this.pnlBorderLeftPaidsReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.pnlBorderLeftPaidsReport.Location = new System.Drawing.Point(0, 69);
+            this.pnlBorderLeftPaidsReport.Name = "pnlBorderLeftPaidsReport";
+            this.pnlBorderLeftPaidsReport.Size = new System.Drawing.Size(10, 28);
+            this.pnlBorderLeftPaidsReport.TabIndex = 17;
+            // 
+            // btnPaidsReports
+            // 
+            this.btnPaidsReports.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnPaidsReports.FlatAppearance.BorderSize = 0;
+            this.btnPaidsReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnPaidsReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPaidsReports.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPaidsReports.ForeColor = System.Drawing.Color.White;
+            this.btnPaidsReports.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPaidsReports.Location = new System.Drawing.Point(3, 69);
+            this.btnPaidsReports.Name = "btnPaidsReports";
+            this.btnPaidsReports.Size = new System.Drawing.Size(170, 28);
+            this.btnPaidsReports.TabIndex = 16;
+            this.btnPaidsReports.Text = "Relatório Pagos";
+            this.btnPaidsReports.UseVisualStyleBackColor = false;
+            this.btnPaidsReports.Click += new System.EventHandler(this.btnPaidsReports_Click);
+            // 
+            // pnlBorderLeftPurchasesReport
+            // 
+            this.pnlBorderLeftPurchasesReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.pnlBorderLeftPurchasesReport.Location = new System.Drawing.Point(1, 36);
+            this.pnlBorderLeftPurchasesReport.Name = "pnlBorderLeftPurchasesReport";
+            this.pnlBorderLeftPurchasesReport.Size = new System.Drawing.Size(10, 28);
+            this.pnlBorderLeftPurchasesReport.TabIndex = 15;
+            // 
+            // btnPurchasesReport
+            // 
+            this.btnPurchasesReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnPurchasesReport.FlatAppearance.BorderSize = 0;
+            this.btnPurchasesReport.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnPurchasesReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPurchasesReport.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPurchasesReport.ForeColor = System.Drawing.Color.White;
+            this.btnPurchasesReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPurchasesReport.Location = new System.Drawing.Point(4, 36);
+            this.btnPurchasesReport.Name = "btnPurchasesReport";
+            this.btnPurchasesReport.Size = new System.Drawing.Size(170, 28);
+            this.btnPurchasesReport.TabIndex = 14;
+            this.btnPurchasesReport.Text = "Relatório de Compras";
+            this.btnPurchasesReport.UseVisualStyleBackColor = false;
+            this.btnPurchasesReport.Click += new System.EventHandler(this.btnPurchasesReport_Click);
+            // 
+            // pnlBorderLeftSalesReport
+            // 
+            this.pnlBorderLeftSalesReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.pnlBorderLeftSalesReport.Location = new System.Drawing.Point(1, 3);
+            this.pnlBorderLeftSalesReport.Name = "pnlBorderLeftSalesReport";
+            this.pnlBorderLeftSalesReport.Size = new System.Drawing.Size(10, 28);
+            this.pnlBorderLeftSalesReport.TabIndex = 13;
+            // 
+            // btnSalesReport
+            // 
+            this.btnSalesReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnSalesReport.FlatAppearance.BorderSize = 0;
+            this.btnSalesReport.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnSalesReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalesReport.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalesReport.ForeColor = System.Drawing.Color.White;
+            this.btnSalesReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalesReport.Location = new System.Drawing.Point(4, 3);
+            this.btnSalesReport.Name = "btnSalesReport";
+            this.btnSalesReport.Size = new System.Drawing.Size(170, 28);
+            this.btnSalesReport.TabIndex = 12;
+            this.btnSalesReport.Text = "Relatório de Vendas";
+            this.btnSalesReport.UseVisualStyleBackColor = false;
+            this.btnSalesReport.Click += new System.EventHandler(this.btnSalesReport_Click);
+            // 
+            // pnlBorderLeftReports
+            // 
+            this.pnlBorderLeftReports.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.pnlBorderLeftReports.Location = new System.Drawing.Point(0, 358);
+            this.pnlBorderLeftReports.Name = "pnlBorderLeftReports";
+            this.pnlBorderLeftReports.Size = new System.Drawing.Size(5, 32);
+            this.pnlBorderLeftReports.TabIndex = 13;
+            // 
+            // btnReports
+            // 
+            this.btnReports.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnReports.FlatAppearance.BorderSize = 0;
+            this.btnReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReports.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReports.ForeColor = System.Drawing.Color.White;
+            this.btnReports.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.Image")));
+            this.btnReports.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReports.Location = new System.Drawing.Point(3, 358);
+            this.btnReports.Name = "btnReports";
+            this.btnReports.Size = new System.Drawing.Size(217, 32);
+            this.btnReports.TabIndex = 12;
+            this.btnReports.Text = "Relatórios";
+            this.btnReports.UseVisualStyleBackColor = false;
+            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
             // 
             // pnlBorderLeftPaid
             // 
@@ -319,31 +457,6 @@
             this.pnlKontenedor.Size = new System.Drawing.Size(1080, 612);
             this.pnlKontenedor.TabIndex = 2;
             // 
-            // pnlBorderLeftReports
-            // 
-            this.pnlBorderLeftReports.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.pnlBorderLeftReports.Location = new System.Drawing.Point(0, 358);
-            this.pnlBorderLeftReports.Name = "pnlBorderLeftReports";
-            this.pnlBorderLeftReports.Size = new System.Drawing.Size(5, 32);
-            this.pnlBorderLeftReports.TabIndex = 13;
-            // 
-            // btnReports
-            // 
-            this.btnReports.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnReports.FlatAppearance.BorderSize = 0;
-            this.btnReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReports.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReports.ForeColor = System.Drawing.Color.White;
-            this.btnReports.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.Image")));
-            this.btnReports.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReports.Location = new System.Drawing.Point(3, 358);
-            this.btnReports.Name = "btnReports";
-            this.btnReports.Size = new System.Drawing.Size(217, 32);
-            this.btnReports.TabIndex = 12;
-            this.btnReports.Text = "Relatórios";
-            this.btnReports.UseVisualStyleBackColor = false;
-            // 
             // frmDesignModern
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -361,6 +474,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picButtonMaximize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonClose)).EndInit();
             this.pnlMenuVertical.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picbtnExit)).EndInit();
+            this.pnlSubmenuReports.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -390,6 +505,14 @@
         private System.Windows.Forms.Button btnProducts;
         private System.Windows.Forms.Panel pnlBorderLeftReports;
         private System.Windows.Forms.Button btnReports;
+        private System.Windows.Forms.Panel pnlSubmenuReports;
+        private System.Windows.Forms.Panel pnlBorderLeftPurchasesReport;
+        private System.Windows.Forms.Button btnPurchasesReport;
+        private System.Windows.Forms.Panel pnlBorderLeftSalesReport;
+        private System.Windows.Forms.Button btnSalesReport;
+        private System.Windows.Forms.Panel pnlBorderLeftPaidsReport;
+        private System.Windows.Forms.Button btnPaidsReports;
+        private System.Windows.Forms.PictureBox picbtnExit;
     }
 }
 

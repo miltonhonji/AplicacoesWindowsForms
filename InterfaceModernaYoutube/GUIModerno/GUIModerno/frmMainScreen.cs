@@ -18,6 +18,26 @@ namespace GUIModerno
             InitializeComponent();
         }
 
+        private void btnReports_Click(object sender, EventArgs e)
+        {
+            pnlSubmenuReports.Visible = true;
+        }
+
+        private void btnPaidsReports_Click(object sender, EventArgs e)
+        {
+            pnlSubmenuReports.Visible = false;
+        }
+
+        private void btnPurchasesReport_Click(object sender, EventArgs e)
+        {
+            pnlSubmenuReports.Visible = false;
+        }
+
+        private void btnSalesReport_Click(object sender, EventArgs e)
+        {
+            pnlSubmenuReports.Visible = false;
+        }
+
         private void picButtonClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -54,5 +74,9 @@ namespace GUIModerno
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMesg, int wParam, int lParam);
 
+        private void picbtnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
