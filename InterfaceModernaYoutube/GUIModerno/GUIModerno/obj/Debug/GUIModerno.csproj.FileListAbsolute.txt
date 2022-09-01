@@ -8,3 +8,5 @@ C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\obj\Debug\GUIModerno.
 C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\obj\Debug\GUIModerno.csproj.CoreCompileInputs.cache
 C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\obj\Debug\GUIModerno.exe
 C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\obj\Debug\GUIModerno.pdb
+C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\obj\Debug\GUIModerno.frmProducts.resources
+C:\Treinando Macoratti\Exercicios UI\GUIModerno\GUIModerno\obj\Debug\GUIModerno.frmStart.resources

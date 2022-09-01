@@ -18,6 +18,24 @@ namespace GUIModerno
             InitializeComponent();
         }
 
+        private void btnProducts_Click(object sender, EventArgs e)
+        {
+            OpenForm(new frmProducts());
+        }
+
+        private void OpenForm(object frmMain)
+        {
+            if (pnlKontenedor.Controls.Count > 0)
+                this.pnlKontenedor.Controls.RemoveAt(0);
+
+            Form frmSecundary = frmMain as Form;
+            frmSecundary.TopLevel = false;
+            frmSecundary.Dock = DockStyle.Fill;
+            this.pnlKontenedor.Controls.Add(frmSecundary);
+            this.pnlKontenedor.Tag = frmSecundary;
+            frmSecundary.Show();
+        }
+
         private void btnReports_Click(object sender, EventArgs e)
         {
             pnlSubmenuReports.Visible = true;

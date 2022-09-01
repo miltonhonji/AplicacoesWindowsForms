@@ -57,7 +57,7 @@
             this.btnBlindfolds = new System.Windows.Forms.Button();
             this.pnlBorderLeftProducts = new System.Windows.Forms.Panel();
             this.btnProducts = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picbtnStartScreen = new System.Windows.Forms.PictureBox();
             this.pnlKontenedor = new System.Windows.Forms.Panel();
             this.pnlTitleBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonRestore)).BeginInit();
@@ -67,7 +67,7 @@
             this.pnlMenuVertical.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbtnExit)).BeginInit();
             this.pnlSubmenuReports.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbtnStartScreen)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlTitleBar
@@ -155,7 +155,7 @@
             this.pnlMenuVertical.Controls.Add(this.btnBlindfolds);
             this.pnlMenuVertical.Controls.Add(this.pnlBorderLeftProducts);
             this.pnlMenuVertical.Controls.Add(this.btnProducts);
-            this.pnlMenuVertical.Controls.Add(this.pictureBox1);
+            this.pnlMenuVertical.Controls.Add(this.picbtnStartScreen);
             this.pnlMenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMenuVertical.Location = new System.Drawing.Point(0, 38);
             this.pnlMenuVertical.Name = "pnlMenuVertical";
@@ -424,6 +424,7 @@
             // btnProducts
             // 
             this.btnProducts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnProducts.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnProducts.FlatAppearance.BorderSize = 0;
             this.btnProducts.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -437,16 +438,18 @@
             this.btnProducts.TabIndex = 0;
             this.btnProducts.Text = "Produtos";
             this.btnProducts.UseVisualStyleBackColor = false;
+            this.btnProducts.Click += new System.EventHandler(this.btnProducts_Click);
             // 
-            // pictureBox1
+            // picbtnStartScreen
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(220, 103);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.picbtnStartScreen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picbtnStartScreen.Image = ((System.Drawing.Image)(resources.GetObject("picbtnStartScreen.Image")));
+            this.picbtnStartScreen.Location = new System.Drawing.Point(1, 0);
+            this.picbtnStartScreen.Name = "picbtnStartScreen";
+            this.picbtnStartScreen.Size = new System.Drawing.Size(220, 103);
+            this.picbtnStartScreen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picbtnStartScreen.TabIndex = 0;
+            this.picbtnStartScreen.TabStop = false;
             // 
             // pnlKontenedor
             // 
@@ -476,7 +479,7 @@
             this.pnlMenuVertical.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picbtnExit)).EndInit();
             this.pnlSubmenuReports.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbtnStartScreen)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -490,7 +493,7 @@
         private System.Windows.Forms.PictureBox picButtonMinimize;
         private System.Windows.Forms.PictureBox picButtonMaximize;
         private System.Windows.Forms.Panel pnlKontenedor;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picbtnStartScreen;
         private System.Windows.Forms.Panel pnlBorderLeftProducts;
         private System.Windows.Forms.Panel pnlBorderLeftShopping;
         private System.Windows.Forms.Button btnShopping;
