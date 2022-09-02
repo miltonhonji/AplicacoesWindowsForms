@@ -18,9 +18,19 @@ namespace GUIModerno
             InitializeComponent();
         }
 
+        private void frmDesignModern_Load(object sender, EventArgs e)
+        {
+            picbtnStartScreen_Click(null, e);
+        }
+
         private void btnProducts_Click(object sender, EventArgs e)
         {
             OpenForm(new frmProducts());
+        }
+
+        private void picbtnStartScreen_Click(object sender, EventArgs e)
+        {
+            OpenForm(new frmStart());
         }
 
         private void OpenForm(object frmMain)

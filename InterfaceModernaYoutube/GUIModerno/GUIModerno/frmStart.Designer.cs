@@ -59,7 +59,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(710, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.ClientSize = new System.Drawing.Size(1080, 612);
             this.Controls.Add(this.picCompanyLogo);
             this.Controls.Add(this.picProductNotebook);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

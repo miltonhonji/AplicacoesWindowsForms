@@ -471,6 +471,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmDesignModern";
             this.Text = "Design Moderno";
+            this.Load += new System.EventHandler(this.frmDesignModern_Load);
             this.pnlTitleBar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picButtonRestore)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonMinimize)).EndInit();
