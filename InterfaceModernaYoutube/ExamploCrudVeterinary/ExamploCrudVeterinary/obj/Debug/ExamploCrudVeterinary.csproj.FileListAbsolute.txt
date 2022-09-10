@@ -1,0 +1,10 @@
+C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary\obj\Debug\ExamploCrudVeterinary.csprojAssemblyReference.cache
+C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary\obj\Debug\ExamploCrudVeterinary.Properties.Resources.resources
+C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary\obj\Debug\ExamploCrudVeterinary.csproj.GenerateResource.cache
+C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary\obj\Debug\ExamploCrudVeterinary.csproj.CoreCompileInputs.cache
+C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary\bin\Debug\ExamploCrudVeterinary.exe.config
+C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary\bin\Debug\ExamploCrudVeterinary.exe
+C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary\bin\Debug\ExamploCrudVeterinary.pdb
+C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary\obj\Debug\ExamploCrudVeterinary.Views.frmPetView.resources
+C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary\obj\Debug\ExamploCrudVeterinary.exe
+C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary\obj\Debug\ExamploCrudVeterinary.pdb

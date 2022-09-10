@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ExamploCrudVeterinary.Views
 {
@@ -15,7 +16,7 @@ namespace ExamploCrudVeterinary.Views
 
         string SearchValue { get; set; }
         bool IsEdit { get; set; }
-        string IsSuccessful { get; set; }
+        bool IsSuccessful { get; set; }
         string Message { get; set; }
 
         event EventHandler SearchEvent;
@@ -24,5 +25,8 @@ namespace ExamploCrudVeterinary.Views
         event EventHandler DeleteEvent;
         event EventHandler SaveEvent;
         event EventHandler CancelEvent;
+
+        void SetPetListBindingSource(BindingSource petList);
+        void Show();
     }
 }
