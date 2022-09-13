@@ -12,50 +12,74 @@ namespace ExamploCrudVeterinary.Views
 {
     public partial class frmPetView : Form, IPetView
     {
-        private string message;
+        #region Variables
+
+        private bool isEdit;
         private bool isSuccessful;
+        private string message;
+
+        #endregion Variables
+
+        #region Constructor
 
         public frmPetView()
         {
             InitializeComponent();
+            AssociateAndRaiseViewEvents();
+            tabPetsOptions.TabPages.Remove(tpPetDetail);
         }
-        
+
+        private void AssociateAndRaiseViewEvents()
+        {
+            //btnSearchPet.Click += new EventHandler();
+            btnSearchPet.Click += delegate { SearchEvent?.Invoke(this, EventArgs.Empty); };
+            btnSearchPet.KeyDown += (s, e) =>
+             {
+                 if (e.KeyCode == Keys.Enter)
+                     SearchEvent?.Invoke(this, EventArgs.Empty);
+             };
+            //Other
+
+        }
+
+        #endregion Constructor
+
         #region Properties
 
         public string PetId
         {
-            get { throw new NotImplementedException(); }
-            set { throw new NotImplementedException(); }
+            get { return txtPetId.Text; }
+            set { txtPetId.Text = value; }
         }
 
         public string PetName
         {
-            get { throw new NotImplementedException(); }
-            set { throw new NotImplementedException(); }
+            get { return txtPetName.Text; }
+            set { txtPetName.Text = value; }
         }
 
         public string PetType
         {
-            get { throw new NotImplementedException(); }
-            set { throw new NotImplementedException(); }
+            get { return txtPetType.Text; }
+            set { txtPetType.Text = value; }
         }
 
         public string PetColour
         {
-            get { throw new NotImplementedException(); }
-            set { throw new NotImplementedException(); }
+            get { return txtPetColour.Text; }
+            set { txtPetColour.Text = value; }
         }
 
         public string SearchValue
         {
-            get { throw new NotImplementedException(); }
-            set { throw new NotImplementedException(); }
+            get { return txtSearchPet.Text; }
+            set { txtSearchPet.Text = value; }
         }
 
         public bool IsEdit
         {
-            get { throw new NotImplementedException(); }
-            set { throw new NotImplementedException(); }
+            get { return isEdit; }
+            set { isEdit = value; }
         }
 
         public bool IsSuccessful
