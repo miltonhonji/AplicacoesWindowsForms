@@ -21,12 +21,12 @@ namespace ExamploCrudVeterinary.Presenters
             this.petsBindingSource = new BindingSource();
             this.petViewInterface = petViewInterface;
             this.petRepositoryInterface = petRepositoryInterface;
+            this.petViewInterface.SearchEvent += SearchPet;
             this.petViewInterface.AddNewEvent += AddNewPet;
             this.petViewInterface.CancelEvent += CancelAction;
             this.petViewInterface.DeleteEvent += DeleteSelectedPet;
             this.petViewInterface.EditEvent += LoadSelectedPetToEdit;
             this.petViewInterface.SaveEvent += SavePet;
-            this.petViewInterface.SearchEvent += SearchPet;
             this.petViewInterface.SetPetListBindingSource(petsBindingSource);
             LoadAllPetList();
             this.petViewInterface.Show();
@@ -35,6 +35,18 @@ namespace ExamploCrudVeterinary.Presenters
         private void LoadAllPetList()
         {
             petList = petRepositoryInterface.GetAll();
+            petsBindingSource.DataSource = petList;
+        }
+
+        private void SearchPet(object sender, EventArgs e)
+        {
+            bool emptyValue = string.IsNullOrWhiteSpace(this.petViewInterface.SearchValue);
+
+            if (emptyValue == false)
+                petList = petRepositoryInterface.GetByValue(this.petViewInterface.SearchValue);
+            else
+                petList = petRepositoryInterface.GetAll();
+
             petsBindingSource.DataSource = petList;
         }
 
@@ -61,18 +73,6 @@ namespace ExamploCrudVeterinary.Presenters
         private void SavePet(object sender, EventArgs e)
         {
             throw new NotImplementedException();
-        }
-
-        private void SearchPet(object sender, EventArgs e)
-        {
-            bool emptyValue = string.IsNullOrWhiteSpace(this.petViewInterface.SearchValue);
-
-            if (emptyValue == false)
-                petList = petRepositoryInterface.GetByValue(this.petViewInterface.SearchValue);
-            else
-                petList = petRepositoryInterface.GetAll();
-
-            petsBindingSource.DataSource = petList;
         }
     }
 }

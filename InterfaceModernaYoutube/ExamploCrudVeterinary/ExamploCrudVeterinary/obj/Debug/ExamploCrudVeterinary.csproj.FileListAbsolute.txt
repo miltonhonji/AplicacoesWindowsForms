@@ -8,3 +8,4 @@ C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary
 C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary\obj\Debug\ExamploCrudVeterinary.Views.frmPetView.resources
 C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary\obj\Debug\ExamploCrudVeterinary.exe
 C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary\obj\Debug\ExamploCrudVeterinary.pdb
+C:\Treinando Macoratti\Exercicios UI\ExamploCrudVeterinary\ExamploCrudVeterinary\obj\Debug\ExamploCrudVeterinary.Views.frmMainPetView.resources

@@ -27,13 +27,14 @@ namespace ExamploCrudVeterinary.Views
             InitializeComponent();
             AssociateAndRaiseViewEvents();
             tabPetsOptions.TabPages.Remove(tpPetDetail);
+            btnClose.Click += delegate { this.Close(); };
         }
 
         private void AssociateAndRaiseViewEvents()
         {
             //btnSearchPet.Click += new EventHandler();
             btnSearchPet.Click += delegate { SearchEvent?.Invoke(this, EventArgs.Empty); };
-            btnSearchPet.KeyDown += (s, e) =>
+            txtSearchPet.KeyDown += (s, e) =>
              {
                  if (e.KeyCode == Keys.Enter)
                      SearchEvent?.Invoke(this, EventArgs.Empty);
@@ -114,6 +115,27 @@ namespace ExamploCrudVeterinary.Views
             dgvPetsList.DataSource = petList;
         }
 
+        //Singleton Pattern
+        private static frmPetView instancePetView;
+
+        public static frmPetView GetInstance(Form parentContainer)
+        {
+            if (instancePetView == null || instancePetView.IsDisposed)
+            {
+                instancePetView = new frmPetView();
+                instancePetView.MdiParent = parentContainer;
+                instancePetView.FormBorderStyle = FormBorderStyle.None;
+                instancePetView.Dock = DockStyle.Fill;
+            }
+            else
+            { 
+                if (instancePetView.WindowState == FormWindowState.Minimized)
+                    instancePetView.WindowState = FormWindowState.Normal;
+
+                    instancePetView.BringToFront();
+            }
+            return instancePetView;
+        }
         #endregion Methods
     }
 }
