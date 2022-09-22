@@ -52,7 +52,7 @@ namespace ExamploCrudVeterinary.Presenters
 
         private void AddNewPet(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            petViewInterface.IsEdit = false;
         }
 
         private void CancelAction(object sender, EventArgs e)
@@ -67,7 +67,7 @@ namespace ExamploCrudVeterinary.Presenters
 
         private void LoadSelectedPetToEdit(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            var LoadSelectedPet = (PetModel)petsBindingSource.Current;
         }
 
         private void SavePet(object sender, EventArgs e)

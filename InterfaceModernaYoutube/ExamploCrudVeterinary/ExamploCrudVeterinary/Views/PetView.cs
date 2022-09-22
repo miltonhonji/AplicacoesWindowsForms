@@ -39,8 +39,58 @@ namespace ExamploCrudVeterinary.Views
                  if (e.KeyCode == Keys.Enter)
                      SearchEvent?.Invoke(this, EventArgs.Empty);
              };
-            //Other
 
+            btnAddNewPet.Click += delegate 
+            {
+                AddNewEvent?.Invoke(this, EventArgs.Empty);
+                tabPetsOptions.TabPages.Remove(tpPetList);
+                tabPetsOptions.TabPages.Add(tpPetDetail);
+                tpPetDetail.Text = "Add New Pet";
+            };
+
+            btnEditPet.Click += delegate 
+            {
+                EditEvent?.Invoke(this, EventArgs.Empty);
+                tabPetsOptions.TabPages.Remove(tpPetList);
+                tabPetsOptions.TabPages.Add(tpPetDetail);
+                tpPetDetail.Text = "Edit Pet";
+            };
+
+            btnDeletePet.Click += delegate 
+            {
+                var result = MessageBox.Show("Are you sure you want to delete the selected pet?", "Warning",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if(result == DialogResult.Yes)
+                {
+                    DeleteEvent?.Invoke(this, EventArgs.Empty);
+                    MessageBox.Show(Message);
+                }
+            };
+
+            btnSaveDetail.Click += delegate 
+            {
+                SaveEvent?.Invoke(this, EventArgs.Empty);
+                
+                if(isSuccessful)
+                {
+                    tabPetsOptions.TabPages.Remove(tpPetDetail);
+                    tabPetsOptions.TabPages.Add(tpPetList);
+                }
+
+                MessageBox.Show(Message);
+            };
+
+            btnCancelDetail.Click += delegate 
+            {
+                CancelEvent?.Invoke(this, EventArgs.Empty);
+
+                if(isSuccessful)
+                {
+                    tabPetsOptions.TabPages.Remove(tpPetDetail);
+                    tabPetsOptions.TabPages.Add(tpPetList);
+                }
+            };
         }
 
         #endregion Constructor
