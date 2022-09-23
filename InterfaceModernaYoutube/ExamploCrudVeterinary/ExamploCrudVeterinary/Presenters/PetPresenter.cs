@@ -67,12 +67,32 @@ namespace ExamploCrudVeterinary.Presenters
 
         private void LoadSelectedPetToEdit(object sender, EventArgs e)
         {
-            var LoadSelectedPet = (PetModel)petsBindingSource.Current;
+            var loadSelectedPet = (PetModel)petsBindingSource.Current;
+            petViewInterface.PetId = loadSelectedPet.Id.ToString();
+            petViewInterface.PetName = loadSelectedPet.Name;
+            petViewInterface.PetType = loadSelectedPet.Type;
+            petViewInterface.PetColour = loadSelectedPet.Colour;
+            petViewInterface.IsEdit = true;
         }
 
         private void SavePet(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            var petModel = new PetModel();
+
+            petModel.Id = Convert.ToInt32(petViewInterface.PetId);
+            petModel.Name = petViewInterface.PetName;
+            petModel.Type = petViewInterface.PetType;
+            petModel.Colour = petViewInterface.PetColour;
+
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+                petViewInterface.IsSuccessful = false;
+                petViewInterface.Message = ex.Message;
+            }
         }
     }
 }
