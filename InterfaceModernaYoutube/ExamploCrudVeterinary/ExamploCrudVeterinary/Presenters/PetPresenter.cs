@@ -57,12 +57,24 @@ namespace ExamploCrudVeterinary.Presenters
 
         private void CancelAction(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            CleanViewFields();
         }
 
         private void DeleteSelectedPet(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var loadSelectedPet = (PetModel)petsBindingSource.Current;
+                petRepositoryInterface.Delete(loadSelectedPet.Id);
+                petViewInterface.IsSuccessful = true;
+                petViewInterface.Message = "Pet Deleted Sucessfully";
+                LoadAllPetList();
+            }
+            catch (Exception ex)
+            {
+                petViewInterface.IsSuccessful = false;
+                petViewInterface.Message = "An error ocurred, could not delete pet";
+            }
         }
 
         private void LoadSelectedPetToEdit(object sender, EventArgs e)
@@ -86,13 +98,37 @@ namespace ExamploCrudVeterinary.Presenters
 
             try
             {
+                new Common.ModelDataValidation().ValidateData(petModel);
 
+                if(petViewInterface.IsEdit)
+                {
+                    petRepositoryInterface.Edit(petModel);
+                    petViewInterface.Message = "Pet Edited Successfully";
+                }
+                else
+                {
+                    petRepositoryInterface.Add(petModel);
+                    petViewInterface.Message = "Pet Added Successfully";
+                }
+
+                petViewInterface.IsSuccessful = true;
+                LoadAllPetList();
+                CleanViewFields();
             }
             catch (Exception ex)
             {
                 petViewInterface.IsSuccessful = false;
                 petViewInterface.Message = ex.Message;
             }
+        }
+
+        private void CleanViewFields()
+        {
+            petViewInterface.PetId = "0";
+            petViewInterface.PetName = String.Empty;
+            petViewInterface.PetType = String.Empty;
+            petViewInterface.PetColour = String.Empty;
+
         }
     }
 }
