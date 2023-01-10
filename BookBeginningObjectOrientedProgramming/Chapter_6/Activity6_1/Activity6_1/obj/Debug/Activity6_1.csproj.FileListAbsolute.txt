@@ -1,0 +1,9 @@
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 6\Activity6_1\Activity6_1\bin\Debug\Activity6_1.exe.config
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 6\Activity6_1\Activity6_1\bin\Debug\Activity6_1.exe
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 6\Activity6_1\Activity6_1\bin\Debug\Activity6_1.pdb
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 6\Activity6_1\Activity6_1\obj\Debug\Activity6_1.csprojAssemblyReference.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 6\Activity6_1\Activity6_1\obj\Debug\Activity6_1.csproj.CoreCompileInputs.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 6\Activity6_1\Activity6_1\obj\Debug\Activity6_1.exe
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 6\Activity6_1\Activity6_1\obj\Debug\Activity6_1.pdb
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 6\Activity6_1\Activity6_1\obj\Debug\Activity6_1.frmLogin.resources
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 6\Activity6_1\Activity6_1\obj\Debug\Activity6_1.csproj.GenerateResource.cache

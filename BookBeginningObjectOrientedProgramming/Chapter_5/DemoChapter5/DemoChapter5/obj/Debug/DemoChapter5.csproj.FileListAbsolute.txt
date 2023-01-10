@@ -1,0 +1,10 @@
+C:\LivroCSharp\Exemplos\DemoChapter5\DemoChapter5\bin\Debug\DemoChapter5.exe.config
+C:\LivroCSharp\Exemplos\DemoChapter5\DemoChapter5\bin\Debug\DemoChapter5.exe
+C:\LivroCSharp\Exemplos\DemoChapter5\DemoChapter5\bin\Debug\DemoChapter5.pdb
+C:\LivroCSharp\Exemplos\DemoChapter5\DemoChapter5\obj\Debug\DemoChapter5.csprojAssemblyReference.cache
+C:\LivroCSharp\Exemplos\DemoChapter5\DemoChapter5\obj\Debug\DemoChapter5.Form1.resources
+C:\LivroCSharp\Exemplos\DemoChapter5\DemoChapter5\obj\Debug\DemoChapter5.Properties.Resources.resources
+C:\LivroCSharp\Exemplos\DemoChapter5\DemoChapter5\obj\Debug\DemoChapter5.csproj.GenerateResource.cache
+C:\LivroCSharp\Exemplos\DemoChapter5\DemoChapter5\obj\Debug\DemoChapter5.csproj.CoreCompileInputs.cache
+C:\LivroCSharp\Exemplos\DemoChapter5\DemoChapter5\obj\Debug\DemoChapter5.exe
+C:\LivroCSharp\Exemplos\DemoChapter5\DemoChapter5\obj\Debug\DemoChapter5.pdb
