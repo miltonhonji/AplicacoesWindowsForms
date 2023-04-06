@@ -1,0 +1,10 @@
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 7\Activity7_2\Activity7_2\obj\Debug\Activity7_2.csprojAssemblyReference.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 7\Activity7_2\Activity7_2\obj\Debug\Activity7_2.frmTeller.resources
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 7\Activity7_2\Activity7_2\obj\Debug\Activity7_2.Properties.Resources.resources
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 7\Activity7_2\Activity7_2\obj\Debug\Activity7_2.csproj.GenerateResource.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 7\Activity7_2\Activity7_2\obj\Debug\Activity7_2.csproj.CoreCompileInputs.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 7\Activity7_2\Activity7_2\bin\Debug\Activity7_2.exe.config
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 7\Activity7_2\Activity7_2\bin\Debug\Activity7_2.exe
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 7\Activity7_2\Activity7_2\bin\Debug\Activity7_2.pdb
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 7\Activity7_2\Activity7_2\obj\Debug\Activity7_2.exe
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 7\Activity7_2\Activity7_2\obj\Debug\Activity7_2.pdb

@@ -1,0 +1,11 @@
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_2\Activity10_2\bin\Debug\Activity10_2.exe.config
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_2\Activity10_2\bin\Debug\Activity10_2.exe
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_2\Activity10_2\bin\Debug\Activity10_2.pdb
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_2\Activity10_2\obj\Debug\Activity10_2.csprojAssemblyReference.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_2\Activity10_2\obj\Debug\Activity10_2.Form1.resources
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_2\Activity10_2\obj\Debug\Activity10_2.Properties.Resources.resources
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_2\Activity10_2\obj\Debug\Activity10_2.csproj.GenerateResource.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_2\Activity10_2\obj\Debug\Activity10_2.csproj.CoreCompileInputs.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_2\Activity10_2\obj\Debug\Activity10_2.exe
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_2\Activity10_2\obj\Debug\Activity10_2.pdb
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_2\Activity10_2\obj\Debug\Activity10_2.Form2.resources

@@ -1,0 +1,12 @@
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_3\Activity10_3\bin\Debug\Activity10_3.exe.config
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_3\Activity10_3\bin\Debug\Activity10_3.exe
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_3\Activity10_3\bin\Debug\Activity10_3.pdb
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_3\Activity10_3\bin\Debug\EntityFramework.dll
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_3\Activity10_3\bin\Debug\EntityFramework.SqlServer.dll
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_3\Activity10_3\bin\Debug\EntityFramework.xml
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_3\Activity10_3\bin\Debug\EntityFramework.SqlServer.xml
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_3\Activity10_3\obj\Debug\Activity10_3.csprojAssemblyReference.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_3\Activity10_3\obj\Debug\Activity10_3.csproj.CoreCompileInputs.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_3\Activity10_3\obj\Debug\Activity10_3.csproj.CopyComplete
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_3\Activity10_3\obj\Debug\Activity10_3.exe
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_3\Activity10_3\obj\Debug\Activity10_3.pdb

@@ -1,0 +1,7 @@
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_1\Activity10_1\bin\Debug\Activity10_1.exe.config
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_1\Activity10_1\bin\Debug\Activity10_1.exe
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_1\Activity10_1\bin\Debug\Activity10_1.pdb
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_1\Activity10_1\obj\Debug\Activity10_1.csprojAssemblyReference.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_1\Activity10_1\obj\Debug\Activity10_1.csproj.CoreCompileInputs.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_1\Activity10_1\obj\Debug\Activity10_1.exe
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 10\Activity10_1\Activity10_1\obj\Debug\Activity10_1.pdb

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="pubsModelStoreContainer" CdmEntityContainer="pubsEntities">
+    <EntitySetMapping Name="sales">
+      <EntityTypeMapping TypeName="pubsModel.sale">
+        <MappingFragment StoreEntitySet="sales">
+          <ScalarProperty Name="stor_id" ColumnName="stor_id" />
+          <ScalarProperty Name="ord_num" ColumnName="ord_num" />
+          <ScalarProperty Name="ord_date" ColumnName="ord_date" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="payterms" ColumnName="payterms" />
+          <ScalarProperty Name="title_id" ColumnName="title_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stores">
+      <EntityTypeMapping TypeName="pubsModel.store">
+        <MappingFragment StoreEntitySet="stores">
+          <ScalarProperty Name="stor_id" ColumnName="stor_id" />
+          <ScalarProperty Name="stor_name" ColumnName="stor_name" />
+          <ScalarProperty Name="stor_address" ColumnName="stor_address" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="zip" ColumnName="zip" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="books">
+      <EntityTypeMapping TypeName="pubsModel.book">
+        <MappingFragment StoreEntitySet="titles">
+          <ScalarProperty Name="title_id" ColumnName="title_id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="pub_id" ColumnName="pub_id" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="advance" ColumnName="advance" />
+          <ScalarProperty Name="royalty" ColumnName="royalty" />
+          <ScalarProperty Name="ytd_sales" ColumnName="ytd_sales" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+          <ScalarProperty Name="pubdate" ColumnName="pubdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

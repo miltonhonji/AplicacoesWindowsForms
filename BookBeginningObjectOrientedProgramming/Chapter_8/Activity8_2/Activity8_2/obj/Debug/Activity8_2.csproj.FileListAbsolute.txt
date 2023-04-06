@@ -1,0 +1,10 @@
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 8\Activity8_2\Activity8_2\bin\Debug\Activity8_2.exe.config
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 8\Activity8_2\Activity8_2\bin\Debug\Activity8_2.exe
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 8\Activity8_2\Activity8_2\bin\Debug\Activity8_2.pdb
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 8\Activity8_2\Activity8_2\obj\Debug\Activity8_2.csprojAssemblyReference.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 8\Activity8_2\Activity8_2\obj\Debug\Activity8_2.frmLogger.resources
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 8\Activity8_2\Activity8_2\obj\Debug\Activity8_2.Properties.Resources.resources
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 8\Activity8_2\Activity8_2\obj\Debug\Activity8_2.csproj.GenerateResource.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 8\Activity8_2\Activity8_2\obj\Debug\Activity8_2.csproj.CoreCompileInputs.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 8\Activity8_2\Activity8_2\obj\Debug\Activity8_2.exe
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 8\Activity8_2\Activity8_2\obj\Debug\Activity8_2.pdb

@@ -1,0 +1,7 @@
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 9\Activity9_3\Activity9_3\bin\Debug\Activity9_3.exe.config
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 9\Activity9_3\Activity9_3\bin\Debug\Activity9_3.exe
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 9\Activity9_3\Activity9_3\bin\Debug\Activity9_3.pdb
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 9\Activity9_3\Activity9_3\obj\Debug\Activity9_3.csprojAssemblyReference.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 9\Activity9_3\Activity9_3\obj\Debug\Activity9_3.csproj.CoreCompileInputs.cache
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 9\Activity9_3\Activity9_3\obj\Debug\Activity9_3.exe
+C:\LivroCSharp\Exemplos\Atividade\Capítulo 9\Activity9_3\Activity9_3\obj\Debug\Activity9_3.pdb
