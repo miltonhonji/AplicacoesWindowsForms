@@ -1,0 +1,15 @@
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\bin\Debug\Activity11_1.exe.config
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\bin\Debug\Activity11_1.exe
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\bin\Debug\Activity11_1.pdb
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\obj\Debug\Activity11_1.csprojAssemblyReference.cache
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\obj\Debug\MainWindow.g.cs
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\obj\Debug\App.g.cs
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\obj\Debug\Activity11_1_MarkupCompile.cache
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\obj\Debug\Activity11_1_MarkupCompile.lref
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\obj\Debug\MainWindow.baml
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\obj\Debug\Activity11_1.g.resources
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\obj\Debug\Activity11_1.Properties.Resources.resources
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\obj\Debug\Activity11_1.csproj.GenerateResource.cache
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\obj\Debug\Activity11_1.csproj.CoreCompileInputs.cache
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\obj\Debug\Activity11_1.exe
+C:\LivroCSharp\Exemplos\Atividade\Capitulo 11\Activity11_1\Activity11_1\obj\Debug\Activity11_1.pdb
