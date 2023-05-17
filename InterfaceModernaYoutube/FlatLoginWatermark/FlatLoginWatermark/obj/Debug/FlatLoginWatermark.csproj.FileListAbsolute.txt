@@ -1,0 +1,12 @@
+C:\Treinando Macoratti\FlatLoginWatermark\FlatLoginWatermark\bin\Debug\FlatLoginWatermark.exe.config
+C:\Treinando Macoratti\FlatLoginWatermark\FlatLoginWatermark\bin\Debug\FlatLoginWatermark.exe
+C:\Treinando Macoratti\FlatLoginWatermark\FlatLoginWatermark\bin\Debug\FlatLoginWatermark.pdb
+C:\Treinando Macoratti\FlatLoginWatermark\FlatLoginWatermark\obj\Debug\FlatLoginWatermark.csprojAssemblyReference.cache
+C:\Treinando Macoratti\FlatLoginWatermark\FlatLoginWatermark\obj\Debug\FlatLoginWatermark.FormLogin.resources
+C:\Treinando Macoratti\FlatLoginWatermark\FlatLoginWatermark\obj\Debug\FlatLoginWatermark.Properties.Resources.resources
+C:\Treinando Macoratti\FlatLoginWatermark\FlatLoginWatermark\obj\Debug\FlatLoginWatermark.csproj.GenerateResource.cache
+C:\Treinando Macoratti\FlatLoginWatermark\FlatLoginWatermark\obj\Debug\FlatLoginWatermark.csproj.CoreCompileInputs.cache
+C:\Treinando Macoratti\FlatLoginWatermark\FlatLoginWatermark\obj\Debug\FlatLoginWatermark.exe
+C:\Treinando Macoratti\FlatLoginWatermark\FlatLoginWatermark\obj\Debug\FlatLoginWatermark.pdb
+C:\Treinando Macoratti\FlatLoginWatermark\FlatLoginWatermark\bin\Debug\MaterialSkin.dll
+C:\Treinando Macoratti\FlatLoginWatermark\FlatLoginWatermark\obj\Debug\FlatLoginWatermark.csproj.CopyComplete
